@@ -3,10 +3,10 @@ package middleware
 import (
 	"myapp/data"
 
-	"github.com/tsawler/celeritas"
+	"github.com/daddy2054/celeritas"
 )
 
 type Middleware struct {
-	App *celeritas.Celeritas
+	App    *celeritas.Celeritas
 	Models data.Models
 }

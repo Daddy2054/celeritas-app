@@ -7,7 +7,7 @@ import (
 	"myapp/middleware"
 	"os"
 
-	"github.com/tsawler/celeritas"
+	"github.com/daddy2054/celeritas"
 )
 
 func initApplication() *application {
@@ -34,8 +34,8 @@ func initApplication() *application {
 	}
 
 	app := &application{
-		App: cel,
-		Handlers: myHandlers,
+		App:        cel,
+		Handlers:   myHandlers,
 		Middleware: myMiddleware,
 	}
 
